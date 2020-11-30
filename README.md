@@ -10,6 +10,7 @@ Provide PKGBUILDs maintained by Ayaka
 | rime-nushu | Nushu input for rime | 0.0.0.20200722-1 | 2020-07-21 |
 | rime-symbolic | Symbolic input for rime | 0.0.0.20200813-1 | 2020-08-16 |
 | rime-symbolic-simp | Symbolic input for rime (Simplified Chinese version) | 0.0.0.20200813-1 | 2020-08-16 |
+| ttf-fanwunming | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoMin, which can handle the one-to-many problem | 1.005-1 | 2020-11-30 |
 
 ## Thanks
 
