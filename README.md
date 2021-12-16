@@ -14,6 +14,16 @@ Provide PKGBUILDs maintained by Ayaka
 | ttf-fanwunming | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoMin, which can handle the one-to-many problem | 1.007-1 | 2021-09-08 |
 | ttf-fanwunhak | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoGothic, which can handle the one-to-many problem | 1.007-1 | 2021-09-08 |
 
+## Common Workflow
+
+```sh
+makepkg -g >> PKGBUILD
+makepkg --printsrcinfo > .SRCINFO
+git add PKGBUILD .SRCINFO
+git commit -m "Add $packagename"
+aurpublish $packagename
+```
+
 ## Thanks
 
 - **[ayalhw/AUR](https://github.com/ayalhw/AUR)**: Great AUR repository
