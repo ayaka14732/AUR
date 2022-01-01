@@ -6,7 +6,7 @@ Provide PKGBUILDs maintained by Ayaka
 
 | Name | Description | Version | Last Updated |
 | :- | :- | :- | :- |
-| grain | A modern web staple. A new language that puts academic language features to work | 0.4.5-3 | 2021-12-17 |
+| grain | A modern web staple. A new language that puts academic language features to work | 0.4.6-1 | 2022-01-01 |
 | rime-ipa | IPA input for rime | 0.0.0.20200413-1 | 2020-07-25 |
 | rime-nushu | Nushu input for rime | 0.0.0.20200722-2 | 2021-08-14 |
 | rime-symbolic | Symbolic input for rime | 0.0.0.20200813-1 | 2020-08-16 |
