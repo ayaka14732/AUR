@@ -1,6 +1,6 @@
 # Ayaka PKGBUILD Repository
 
-Provide PKGBUILDs maintained by Ayaka
+PKGBUILD files maintained by Ayaka
 
 ## List
 
@@ -26,7 +26,7 @@ namcap *.tar.zst
 sudo pacman -U *.tar.zst
 git add PKGBUILD .SRCINFO
 git add ../README.md
-git commit -m "Add $packagename"
+git commit -m "Add/Update $packagename"
 aurpublish $packagename
 git push
 git clean -xdf
