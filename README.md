@@ -6,7 +6,7 @@ PKGBUILD files maintained by Ayaka
 
 | Name | Description | Version | Last Updated |
 | :- | :- | :- | :- |
-| grain | A modern web staple. A new language that puts academic language features to work | 0.5.1-1 | 2022-06-10 |
+| grain | A modern web staple. A new language that puts academic language features to work | 0.5.2-1 | 2022-07-01 |
 | rime-ipa | IPA input for rime | 0.0.0.20200413-1 | 2020-07-25 |
 | rime-nushu | Nushu input for rime | 0.0.0.20200722-2 | 2021-08-14 |
 | rime-symbolic | Symbolic input for rime | 0.0.0.20200813-1 | 2020-08-16 |
@@ -19,12 +19,14 @@ PKGBUILD files maintained by Ayaka
 
 ```sh
 cd $packagename
+# Edit PKGBUILD
 makepkg -g >> PKGBUILD
 makepkg --printsrcinfo > .SRCINFO
 makepkg -s
 namcap *.tar.zst
 sudo pacman -U *.tar.zst
 git add PKGBUILD .SRCINFO
+# Edit README.md
 git add ../README.md
 git commit -m "Add/Update $packagename"
 aurpublish $packagename
