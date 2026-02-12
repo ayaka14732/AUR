@@ -11,7 +11,7 @@ PKGBUILD files maintained by Ayaka
 | rime-nushu | Nushu input for rime | 0.0.0.20200722-2 | 2021-08-14 |
 | rime-symbolic | Symbolic input for rime | 0.0.0.20200813-1 | 2020-08-16 |
 | rime-symbolic-simp | Symbolic input for rime (Simplified Chinese version) | 0.0.0.20200813-1 | 2020-08-16 |
-| rime-tupa | TUPA input for rime | 0.0.0.20220715-1 | 2022-07-15 |
+| rime-tupa | TUPA input for rime | 0.0.0.20260212-1 | 2026-02-12 |
 | ttf-fanwunming | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoMin, which can handle the one-to-many problem | 1.007-1 | 2021-09-08 |
 | ttf-fanwunhak | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoGothic, which can handle the one-to-many problem | 1.007-1 | 2021-09-08 |
 
@@ -19,15 +19,15 @@ PKGBUILD files maintained by Ayaka
 
 ```sh
 cd $packagename
-# Edit PKGBUILD
+# <Edit PKGBUILD, and comment out `sha256sums`>
 makepkg -g >> PKGBUILD
-# Edit PKGBUILD
+# <Edit PKGBUILD, substitute the commented `sha256sums` to the newly generated one>
 makepkg --printsrcinfo > .SRCINFO
 makepkg -s
-namcap *.tar.zst
-sudo pacman -U *.tar.zst
+namcap *.pkg.tar
+sudo pacman -U *.pkg.tar
 git add PKGBUILD .SRCINFO
-# Edit README.md
+# <Edit README.md, update the "Last Updated" field>
 git add ../README.md
 git commit -m "Update $packagename"
 aurpublish $packagename
