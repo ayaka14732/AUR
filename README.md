@@ -11,9 +11,9 @@ PKGBUILD files maintained by Ayaka
 | rime-symbolic | Symbolic input for rime | 0.0.0.20200813-1 | 2020-08-16 |
 | rime-symbolic-simp | Symbolic input for rime (Simplified Chinese version) | 0.0.0.20200813-1 | 2020-08-16 |
 | rime-tupa | TUPA input for rime | 0.0.0.20260212-1 | 2026-02-12 |
-| ttf-fanwunming | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoMin, which can handle the one-to-many problem | 1.007-1 | 2021-09-08 |
-| ttf-fanwunhak | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoGothic, which can handle the one-to-many problem | 1.007-1 | 2021-09-08 |
 | ttf-chocolate-classical-sans | A traditional Chinese font based on Source Han Sans, featuring inherited glyph forms | 1.001-1 | 2026-02-14 |
+| ttf-fanwunhak | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoGothic, which can handle the one-to-many problem | 1.007-1 | 2021-09-08 |
+| ttf-fanwunming | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoMin, which can handle the one-to-many problem | 1.007-1 | 2021-09-08 |
 
 ## Workflow
 
