@@ -13,6 +13,7 @@ PKGBUILD files maintained by Ayaka
 | rime-tupa | TUPA input for rime | 0.0.0.20260212-1 | 2026-02-12 |
 | ttf-fanwunming | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoMin, which can handle the one-to-many problem | 1.007-1 | 2021-09-08 |
 | ttf-fanwunhak | A Simplified-Chinese-to-Traditional-Chinese font based on GenYoGothic, which can handle the one-to-many problem | 1.007-1 | 2021-09-08 |
+| ttf-chocolate-classical-sans | A traditional Chinese font based on Source Han Sans, featuring inherited glyph forms | 1.001-1 | 2026-02-14 |
 
 ## Workflow
 
@@ -26,7 +27,7 @@ makepkg -s
 namcap *.pkg.tar
 sudo pacman -U *.pkg.tar
 git add PKGBUILD .SRCINFO
-# <Edit README.md, update the "Last Updated" field>
+# <Edit README.md, update the "Version" and "Last Updated" field>
 git add ../README.md
 git commit -m "Update $packagename"
 aurpublish $packagename
